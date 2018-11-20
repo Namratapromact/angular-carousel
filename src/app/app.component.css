@@ -1,0 +1,38 @@
+#owl-demo{
+  margin-top: 40px;
+  overflow: hidden;
+  position: relative;
+}
+#owl-demo .item{
+    background: #a1def8;
+    padding: 30px 0px;
+    display: block;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+  }
+  #owl-demo ul li{
+    list-style: none; 
+  }
+ 
+  .carousel-inner{
+    display: inline-block;
+  }
+  .carousel-inner img{
+    width: 100%;
+  }
+  .carousel-left-arrow{
+    position: absolute;
+    top: 9%;
+    left: 0;
+    cursor: pointer;
+  }
+  .carousel-right-arrow{
+    position: absolute;
+    top: 9%;
+    right: 0;
+    cursor: pointer;
+  }
